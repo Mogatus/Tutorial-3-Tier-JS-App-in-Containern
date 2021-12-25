@@ -38,4 +38,18 @@ YAML-File:
 Start des Containers mit:
 > docker-compose -f mysql.yml up
 
+Zugriff auf bash innerhalb des containers:
+> docker exec -it mysql_db_1 bash
+
+Login in mysql über die bash:
+> mysql -uroot -proot
+
+Anlegen der Datenbank:
+> Ausführung des SQL-Skripts init_db.sql
+
+
 ## JavaScript 
+
+# Tabellendefinitionen
+
+Tabelle price
